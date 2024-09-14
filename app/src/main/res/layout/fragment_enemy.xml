@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#050d14"
+    tools:context=".EnemyFragment">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/themeColor"
+        android:layout_marginBottom="5dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অপরাধী'দের তালিকা"
+            android:textColor="#F44336"
+            android:fontFamily="@font/bangla1"
+            android:textSize="17sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/radius_shape4"
+            android:elevation="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            >
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:queryHint="সার্চ করুন"
+                android:textColor="@color/white"
+                app:queryBackground="@android:color/transparent"
+                app:iconifiedByDefault="false"
+                app:theme="@style/AppSearchView"
+
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:scrollbars="none"
+        tools:listitem="@layout/enemy_card"
+        />
+</LinearLayout>

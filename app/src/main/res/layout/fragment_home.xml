@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#050d14"
+    tools:context=".HomeFragment">
+
+
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="10dp"
+            tools:ignore="UselessLeaf">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="পরিসংখ্যান"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/bangla1"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/radius_shape1"
+                android:padding="20dp"
+                tools:ignore="InefficientWeight,RtlHardcoded">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="এ পর্যন্ত শহীদ"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        android:layout_gravity="left"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৬৫০+"
+                        android:textColor="#F44336"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="25sp"
+                        android:layout_gravity="left"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="এ পর্যন্ত আহত"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        android:layout_gravity="right"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="৩৩,০০০+"
+                        android:textColor="#F44336"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="25sp"
+                        android:layout_gravity="right"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আরও তথ্য"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="13sp"
+                        android:layout_gravity="left"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white"
+                        android:layout_marginTop="7dp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_alignParentBottom="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:background="@drawable/radius_shape2"
+                        tools:ignore="InefficientWeight,RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="গ্রেফতার ও নিখোঁজ"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/bangla1"
+                            android:textSize="14sp"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="১১,০০০+"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/bangla1"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:background="@drawable/radius_shape2"
+                        tools:ignore="InefficientWeight,RtlHardcoded">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="অপরাধী"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/bangla1"
+                            android:textSize="14sp"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="১২৫+"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/bangla1"
+                            android:textSize="17sp"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="স্বাধীনতা অর্জনের চেয়ে স্বাধীনতা রক্ষা করা কঠিন।"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/bangla1"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="তাই স্বাধীনতা রক্ষায় জাতিকে থাকতে হয় সদা জাগ্রত।"
+                android:textColor="#F44336"
+                android:fontFamily="@font/bangla1"
+                android:layout_gravity="center"
+                android:textSize="13sp"
+                android:layout_marginBottom="20dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/shohidClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="শহীদদের"
+                        android:textColor="#F44336"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তালিকা"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="5dp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সবগুলো"
+                        android:textColor="#CCF44336"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="12sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <GridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:numColumns="2"
+                android:scrollbars="horizontal"
+                tools:listitem="@layout/photo_card"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="স্মৃতি বিজারিত চিত্র"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/bangla1"
+                android:textSize="15sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="20"
+                app:iss_period="3000"
+                app:iss_placeholder="@drawable/ic_launcher_foreground"
+                app:iss_error_image="@drawable/ic_launcher_foreground"
+                app:iss_delay="0"
+                app:iss_no_dots="true"
+                android:layout_marginBottom="10dp"
+                tools:ignore="MissingClass" />
+
+
+
+            <RelativeLayout
+                android:id="@+id/newsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সর্বশেষ খবর"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="5dp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    >
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baseline_arrow_forward_ios_24"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                tools:listitem="@layout/list_card"
+                />
+
+            <RelativeLayout
+                android:id="@+id/enemyClick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="অপরাধী'দের"
+                        android:textColor="#F44336"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তালিকা"
+                        android:textColor="#ffffff"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="5dp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সবগুলো"
+                        android:textColor="#CCF44336"
+                        android:fontFamily="@font/bangla1"
+                        android:textSize="12sp"
+                        tools:ignore="HardcodedText,RtlHardcoded" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <HorizontalScrollView
+                android:layout_width="440dp"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="horizontal"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="3000dp"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <GridView
+                            android:id="@+id/gridView3"
+                            android:layout_width="3000dp"
+                            android:layout_height="wrap_content"
+                            android:numColumns="15"
+                            android:scrollbars="horizontal"
+                            tools:listitem="@layout/enemy_card"
+                            />
+
+                    </LinearLayout>
+                </FrameLayout>
+            </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

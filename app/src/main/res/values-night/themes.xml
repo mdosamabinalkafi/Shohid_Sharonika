@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OurPride" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="android:windowLightStatusBar" tools:ignore = "NewApi">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/bangla1</item>
+        <item name="android:textColorHint">#B3FFFFFF</item>
+    </style>
+
+
+
+
+
+</resources>

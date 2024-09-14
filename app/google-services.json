@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82789803840",
+    "project_id": "our-pride-1a3b5",
+    "storage_bucket": "our-pride-1a3b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82789803840:android:17515df84fdc7e067a3ca5",
+        "android_client_info": {
+          "package_name": "com.oaksoftstudio.ourpride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL_tuXFlJXewhMdNcgB1405y7vjyup5MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

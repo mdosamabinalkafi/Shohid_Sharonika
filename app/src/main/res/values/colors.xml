@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    <color name="themeColor">#081621</color>-->
+    <color name="themeColor">#091A2A</color>
+
+    <color name="ripple_selected_color">#00000000</color>
+    <color name="ripple_pressed_color">#4D868686</color>
+</resources>
